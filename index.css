@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #37393b;;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+   
+    align-content: center;
+
+}
+.butt {
+    width: 15px;
+    height: 30px;
+    display: flex;
+    padding: 20px 20px;
+}
+.button1{
+    border: 1px;
+   
+    border-radius: 5px;
+    margin-right: 0.5ch;
+}
+.button2{
+    border: 1px;
+  
+    border-radius: 5px;
+    margin-right: 0.5ch;
+}
+.button3{
+    border: 1px;
+    border-radius: 5px;
+    margin-right: 0.5ch;
+}
+.score{
+    background-color: darkgray  ;
+    height: 100px;
+    width: 100px;
+    color: red;
+    /* align-content: center; */
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+display: flex;    
+border-radius: 10px;
+font-size: 70px;
+}
+
+.reset{
+    border-radius: 10px;
+    margin-left: 23ch;
+    background-color:#c0d7f1;
+}
